@@ -2,6 +2,7 @@
 threshold = 0.8
 data = df[df.columns[df.isnull().mean() < threshold]]
 
+data2 = df[df.columns[df.isnull().mean() < threshold]]
 # Fill missing values with appropriate methods (mean, median, mode, or specific value)
 data['execution_time'].fillna(data['execution_time'].mean(), inplace=True)
 

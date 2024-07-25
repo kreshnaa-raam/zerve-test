@@ -9,6 +9,24 @@ blocks:
   cpu: 2048
   description: ''
   height: 500
+  id: 931cf67f-4dc9-4aec-a8dc-73c4076429f8
+  layer_id: a5043301-9fe6-45a6-907a-c2643d0b2744
+  memory: 16384
+  name: Prediction
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 800
+  x: 1659
+  y: 80
+- auto_size: false
+  canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+  compute_environment_type: 1
+  cpu: 2048
+  description: ''
+  height: 500
   id: a64aa6b0-f112-4b72-8da3-3a7224a9416a
   layer_id: a5043301-9fe6-45a6-907a-c2643d0b2744
   memory: 16384
@@ -56,30 +74,12 @@ blocks:
     response_model: []
     route_name: prediction
     validation_enabled: true
-  status: 3
+  status: 1
   type: 8
   variables: null
   width: 800
   x: 593
   y: 11
-- auto_size: false
-  canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-  compute_environment_type: 1
-  cpu: 2048
-  description: ''
-  height: 500
-  id: 931cf67f-4dc9-4aec-a8dc-73c4076429f8
-  layer_id: a5043301-9fe6-45a6-907a-c2643d0b2744
-  memory: 16384
-  name: Prediction
-  parent_id: null
-  properties: {}
-  status: 3
-  type: 1
-  variables: null
-  width: 800
-  x: 1659
-  y: 80
 edges:
 - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
   id: ffe6dba3-c02b-4836-a399-37958cdcc5ea

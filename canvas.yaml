@@ -12,90 +12,36 @@ layers:
     cpu: 2048
     description: ''
     height: 500
+    id: 0c4830af-1c08-4c55-a827-a68fad908ae2
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    memory: 16384
+    name: Preprocessing.handling missing column and normalization
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 800
+    x: 1996
+    y: 150
+  - auto_size: false
+    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    compute_environment_type: 1
+    cpu: 2048
+    description: ''
+    height: 500
     id: 91a5b866-a637-4a8f-80c7-a323fed3c3a3
     layer_id: a560e1e0-932e-4565-877b-f04856f32402
     memory: 16384
     name: ''
     parent_id: null
     properties: {}
-    status: 3
+    status: 1
     type: 1
     variables: null
     width: 800
     x: 37
     y: 131
-  - auto_size: false
-    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    compute_environment_type: 1
-    cpu: 2048
-    description: ''
-    height: 500
-    id: 75643d21-492d-4451-98f4-cc44bc0ca2d1
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    memory: 16384
-    name: Basic metrics.data size
-    parent_id: null
-    properties: {}
-    status: 3
-    type: 1
-    variables: null
-    width: 800
-    x: 976
-    y: -290
-  - auto_size: false
-    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    compute_environment_type: 1
-    cpu: 2048
-    description: ''
-    height: 500
-    id: 05e0ad19-33cf-4845-9cc4-bd5c8a338493
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    memory: 16384
-    name: Feature selection.correlation
-    parent_id: null
-    properties: {}
-    status: 3
-    type: 1
-    variables: null
-    width: 800
-    x: 3953
-    y: 154
-  - auto_size: false
-    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    compute_environment_type: 1
-    cpu: 2048
-    description: ''
-    height: 500
-    id: b82b0ef4-853a-40fa-842d-fb295700029e
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    memory: 16384
-    name: Model Training.anomalies
-    parent_id: null
-    properties: {}
-    status: 3
-    type: 1
-    variables: null
-    width: 800
-    x: 7726
-    y: -292
-  - auto_size: false
-    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    compute_environment_type: 1
-    cpu: 2048
-    description: ''
-    height: 500
-    id: 267070f8-20f7-4ca6-8c2a-fb73da901fec
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    memory: 16384
-    name: Basic metrics.column types
-    parent_id: null
-    properties: {}
-    status: 3
-    type: 1
-    variables: null
-    width: 800
-    x: 976
-    y: 329
   - auto_size: false
     canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     compute_environment_type: 1
@@ -108,12 +54,48 @@ layers:
     name: Basic metrics.statistics
     parent_id: null
     properties: {}
-    status: 3
+    status: 1
     type: 1
     variables: null
     width: 800
     x: 960
     y: 979
+  - auto_size: false
+    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    compute_environment_type: 1
+    cpu: 2048
+    description: ''
+    height: 500
+    id: b82b0ef4-853a-40fa-842d-fb295700029e
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    memory: 16384
+    name: Model Training.anomalies
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 800
+    x: 7726
+    y: -292
+  - auto_size: false
+    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    compute_environment_type: 1
+    cpu: 2048
+    description: ''
+    height: 500
+    id: 75643d21-492d-4451-98f4-cc44bc0ca2d1
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    memory: 16384
+    name: Basic metrics.data size
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 800
+    x: 976
+    y: -290
   - auto_size: false
     canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     compute_environment_type: 1
@@ -126,12 +108,66 @@ layers:
     name: Feature selection.standardization
     parent_id: null
     properties: {}
-    status: 3
+    status: 1
     type: 1
     variables: null
     width: 800
     x: 4873
     y: 146
+  - auto_size: false
+    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    compute_environment_type: 1
+    cpu: 2048
+    description: ''
+    height: 500
+    id: eb804c4a-bd75-41a6-a77a-2d6a607a778e
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    memory: 16384
+    name: Model Training.Isolation_forest
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 800
+    x: 6617
+    y: -285
+  - auto_size: false
+    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    compute_environment_type: 1
+    cpu: 2048
+    description: ''
+    height: 500
+    id: 05e0ad19-33cf-4845-9cc4-bd5c8a338493
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    memory: 16384
+    name: Feature selection.correlation
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 800
+    x: 3953
+    y: 154
+  - auto_size: false
+    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    compute_environment_type: 1
+    cpu: 2048
+    description: ''
+    height: 500
+    id: 267070f8-20f7-4ca6-8c2a-fb73da901fec
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    memory: 16384
+    name: Basic metrics.column types
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 800
+    x: 976
+    y: 329
   - auto_size: false
     canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     compute_environment_type: 1
@@ -144,30 +180,12 @@ layers:
     name: Model Training.saving model
     parent_id: null
     properties: {}
-    status: 3
+    status: 1
     type: 1
     variables: null
     width: 800
     x: 7735
     y: 383
-  - auto_size: false
-    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    compute_environment_type: 1
-    cpu: 2048
-    description: ''
-    height: 500
-    id: 0c4830af-1c08-4c55-a827-a68fad908ae2
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    memory: 16384
-    name: Preprocessing.handling missing column and normalization
-    parent_id: null
-    properties: {}
-    status: 3
-    type: 1
-    variables: null
-    width: 800
-    x: 1996
-    y: 155
   - auto_size: false
     canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     compute_environment_type: 1
@@ -180,7 +198,7 @@ layers:
     name: Feature selection.correlation plot
     parent_id: null
     properties: {}
-    status: 3
+    status: 1
     type: 1
     variables: null
     width: 800
@@ -198,30 +216,12 @@ layers:
     name: Prediction pipeline.anomaly prediction
     parent_id: null
     properties: {}
-    status: 3
+    status: 1
     type: 1
     variables: null
     width: 800
     x: 9267
     y: -76
-  - auto_size: false
-    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    compute_environment_type: 1
-    cpu: 2048
-    description: ''
-    height: 500
-    id: eb804c4a-bd75-41a6-a77a-2d6a607a778e
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    memory: 16384
-    name: Model Training.Isolation_forest
-    parent_id: null
-    properties: {}
-    status: 3
-    type: 1
-    variables: null
-    width: 800
-    x: 6617
-    y: -285
   canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
   edges:
   - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
@@ -230,59 +230,77 @@ layers:
     source: 91a5b866-a637-4a8f-80c7-a323fed3c3a3
     target: 75643d21-492d-4451-98f4-cc44bc0ca2d1
   - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    id: 862fd66b-a40b-433f-a088-fd0adb986bd7
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    source: 91a5b866-a637-4a8f-80c7-a323fed3c3a3
-    target: 267070f8-20f7-4ca6-8c2a-fb73da901fec
-  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    id: 1668c3a7-f925-4615-bdb2-fe227ff12250
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    source: 0c4830af-1c08-4c55-a827-a68fad908ae2
-    target: 0485a7ff-3cb7-4e67-8b46-98f03ef5e835
-  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    id: 23eaa3ec-5f30-4a57-93c7-2b1bf7064454
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    source: b82b0ef4-853a-40fa-842d-fb295700029e
-    target: d8ccc0eb-9e59-47ef-a36b-5358edaa2094
-  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    id: f8d67919-203d-431e-853f-a288ebfd3393
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    source: 91a5b866-a637-4a8f-80c7-a323fed3c3a3
-    target: dd7b59f8-239b-4547-96cc-a3a12d3d2b0c
-  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     id: 8e0d40e1-b29e-456f-9451-0da26dfab131
     layer_id: a560e1e0-932e-4565-877b-f04856f32402
     source: 267070f8-20f7-4ca6-8c2a-fb73da901fec
     target: 0c4830af-1c08-4c55-a827-a68fad908ae2
+  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    id: e1038a0f-75a4-4931-880f-4a622cab5197
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    source: 05e0ad19-33cf-4845-9cc4-bd5c8a338493
+    target: 9edfb410-f465-4f98-8dcc-4bb3398ea04c
+  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    id: 862fd66b-a40b-433f-a088-fd0adb986bd7
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    source: 91a5b866-a637-4a8f-80c7-a323fed3c3a3
+    target: 267070f8-20f7-4ca6-8c2a-fb73da901fec
   - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     id: 4bf1f662-1d07-4c8b-842e-d3d54d3c9683
     layer_id: a560e1e0-932e-4565-877b-f04856f32402
     source: eb804c4a-bd75-41a6-a77a-2d6a607a778e
     target: b82b0ef4-853a-40fa-842d-fb295700029e
   - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    id: 1668c3a7-f925-4615-bdb2-fe227ff12250
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    source: 0c4830af-1c08-4c55-a827-a68fad908ae2
+    target: 0485a7ff-3cb7-4e67-8b46-98f03ef5e835
+  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     id: a3d2fbda-8f4e-4052-b254-34bcc72715d4
     layer_id: a560e1e0-932e-4565-877b-f04856f32402
     source: 0485a7ff-3cb7-4e67-8b46-98f03ef5e835
     target: 05e0ad19-33cf-4845-9cc4-bd5c8a338493
+  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    id: 23eaa3ec-5f30-4a57-93c7-2b1bf7064454
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    source: b82b0ef4-853a-40fa-842d-fb295700029e
+    target: d8ccc0eb-9e59-47ef-a36b-5358edaa2094
   - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     id: 6c8703fe-265c-4115-b9ae-9ea59946572f
     layer_id: a560e1e0-932e-4565-877b-f04856f32402
     source: 9edfb410-f465-4f98-8dcc-4bb3398ea04c
     target: eb804c4a-bd75-41a6-a77a-2d6a607a778e
   - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    id: f8d67919-203d-431e-853f-a288ebfd3393
+    layer_id: a560e1e0-932e-4565-877b-f04856f32402
+    source: 91a5b866-a637-4a8f-80c7-a323fed3c3a3
+    target: dd7b59f8-239b-4547-96cc-a3a12d3d2b0c
+  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     id: 8b506807-8360-4a2e-a4c8-6d4d25de467c
     layer_id: a560e1e0-932e-4565-877b-f04856f32402
     source: eb804c4a-bd75-41a6-a77a-2d6a607a778e
     target: 039e7fc3-5d0a-4162-b4f0-195e23426367
-  - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    id: e1038a0f-75a4-4931-880f-4a622cab5197
-    layer_id: a560e1e0-932e-4565-877b-f04856f32402
-    source: 05e0ad19-33cf-4845-9cc4-bd5c8a338493
-    target: 9edfb410-f465-4f98-8dcc-4bb3398ea04c
   id: a560e1e0-932e-4565-877b-f04856f32402
   name: Development
   type: 1
 - blocks:
+  - auto_size: false
+    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
+    compute_environment_type: 1
+    cpu: 2048
+    description: ''
+    height: 500
+    id: 931cf67f-4dc9-4aec-a8dc-73c4076429f8
+    layer_id: a5043301-9fe6-45a6-907a-c2643d0b2744
+    memory: 16384
+    name: Prediction
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 800
+    x: 1659
+    y: 80
   - auto_size: false
     canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
     compute_environment_type: 1
@@ -336,30 +354,12 @@ layers:
       response_model: []
       route_name: prediction
       validation_enabled: true
-    status: 3
+    status: 1
     type: 8
     variables: null
     width: 800
     x: 593
     y: 11
-  - auto_size: false
-    canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
-    compute_environment_type: 1
-    cpu: 2048
-    description: ''
-    height: 500
-    id: 931cf67f-4dc9-4aec-a8dc-73c4076429f8
-    layer_id: a5043301-9fe6-45a6-907a-c2643d0b2744
-    memory: 16384
-    name: Prediction
-    parent_id: null
-    properties: {}
-    status: 3
-    type: 1
-    variables: null
-    width: 800
-    x: 1659
-    y: 80
   canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
   edges:
   - canvas_id: 00129a74-8218-45e1-810b-816d87a972bc
